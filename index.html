@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="src/styles/styles.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Poke Paradise</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <i class="fa-solid fa-bowl-food" style="color: #ff6600" id="nav_logo">
+          Poke Paradise</i
+        >
+
+        <ul id="nav_list">
+          <li class="nav-item active">
+            <a href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials">Reviews</a>
+          </li>
+        </ul>
+
+        <button class="btn-default">Order here</button>
+
+        <button id="mobile_btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+      <div id="mobile_menu">
+        <ul id="mobile_nav_list">
+          <li class="nav-item">
+            <a href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials">Reviews</a>
+          </li>
+        </ul>
+        <button class="btn-default">Order here</button>
+      </div>
+    </header>
+
+    <main id="content">
+      <section id="home">
+        <div class="shape"></div>
+        <div id="cta">
+          <h1 class="title">
+            Your Go-To Spot For Fresh
+            <span>Poke Bowls!</span>
+          </h1>
+          <p class="description">
+            Welcome to <span>Poke Paradise,</span> where every bowl is a taste of
+            paradise. Dive into the vibrant flavors of Hawaii with our exquisite
+            Poke Bowls. Fresh, locally-sourced ingredients come together in
+            perfect harmony, offering a burst of freshness in every bite. Join
+            us for a culinary adventure that transports you to the shores of
+            Hawaii, right here in <a class="location" href="https://www.google.com/maps/place/83+Middle+Keei+Rd,+Captain+Cook,+HI+96704,+USA/@19.4559145,-155.8891319,17z/data=!3m1!4b1!4m5!3m4!1s0x795400eebd658d69:0x23a179a43da31902!8m2!3d19.4559095!4d-155.886557?entry=ttu">83 Middle Keei Rd Captain Cook,HI,USA</a>
+          </p>
+          <div id="cta_buttons">
+            <a href="#" class="btn-default"> See Menu </a>
+
+            <a href="tel:+1 (926) 867-0675" id="phone_button">
+              <button class="btn-default">
+                <i class="fa-solid fa-phone"></i>
+              </button>
+              +1 (926) 867-0675
+            </a>
+          </div>
+          <div class="social-media-buttons">
+            <a href="">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+        <div id="banner">
+          <img src="src/images/hero.png"/>
+        </div>
+      </section>
+      <section id="menu">
+          <h2 class="section-title">Menu</h2>
+          <h3 class="section-subtitle">Our special dishes</h3>
+
+          <div id="dishes">
+            <div class="dish">
+                <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <img src="src/images/dish.png" class="dish-image">
+
+                <h3 class="dish-title">
+                    Chicken Crysp Poke
+                </h3>
+
+                <span class="dish-description">
+                    A tasty chicken poke, accompanied by tomato, red onion, cucumber, sesame, crab sticks and shiitake.
+                </span>
+
+                <div class="dish-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(640+)</span>
+                </div>
+
+                <div class="dish-price">
+                    <h4>$20.00</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="dish">
+                <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <img src="src/images/Dish2.png" class="dish-image" width="230" height="230">
+
+                <h3 class="dish-title">
+                    Spicy Fried Fish Poke
+                </h3>
+
+                <span class="dish-description">
+                A tasty Spicy Fried Fish Poke accompanied by red cabbage, boiled egg,corn,sesame seeds,mushrooms and ​jalapeño pepper.
+                </span>
+
+                <div class="dish-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(346+)</span>
+                </div>
+
+                <div class="dish-price">
+                    <h4>$26.00</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="dish">
+                <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <img src="src/images/dish3.png" class="dish-image">
+
+                <h3 class="dish-title">
+                    Almond Poke With Kiwi
+                </h3>
+                <span class="dish-description">  
+                A tasty poke based on almonds, accompanied by strawberries,crab sticks and kiwi.
+                </span>
+
+                <div class="dish-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(253+)</span>
+                </div>
+
+                <div class="dish-price">
+                    <h4>$23.00</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="dish">
+                <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <img src="src/images/dish4.png" class="dish-image">
+
+                <h3 class="dish-title">
+                    Shrimp Poke With Peppers
+                </h3>
+
+                <span class="dish-description">
+                A tasty shrimp poke, accompanied by parsley, pasta, peppers, tomato and English sauce.
+                </span>
+
+                <div class="dish-rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(139+)</span>
+                </div>
+
+                <div class="dish-price">
+                    <h4>$22.00</h4>
+                    <button class="btn-default">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
+            </div>
+          </div>
+        
+        </section>
+
+        <section id="testimonials">
+            <img src="src/images/chef.png" id="testimonial_chef">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">Reviews</h2>
+                <h3 class="section-subtitle">What do they say about us?</h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Emma
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "I love every detail of this restaurant, from the atmosphere to the dishes, which are delicious.Chef Kendessy makes the best dishes."
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/images/avatar2.png" class="feedback-avatar" width="" height="" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Peter
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "
+                                Each dish has its own explosive flavor in the mouth, worth every bite.If I could I would go every day.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    See more reviews
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024 Lucas Segatto Zampini
+            </span>
+            <div class="social-media-buttons">
+                <a href="">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </div>
+        </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+  </body>
+</html>
